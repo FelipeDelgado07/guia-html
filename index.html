@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+
+  <!-- SEO Básico -->
+  <meta name="description" content="Portafolio personal de Nombre Apellido. Proyectos, blog, multimedia y productos relacionados con desarrollo web.">
+  <meta name="keywords" content="portafolio, desarrollo web, proyectos, HTML, programador, Nombre Apellido">
+  <meta name="author" content="Nombre Apellido">
+  <meta name="robots" content="index, follow">
+</head>
+<body>
+  <header>
+    <h1>Nombre Apellido</h1>
+    <nav>
+      <a href="#about">Sobre mí</a> |
+      <a href="#projects">Proyectos</a> |
+      <a href="#blog">Blog</a> |
+      <a href="#media">Multimedia</a> |
+      <a href="#products">Productos</a> |
+      <a href="#contact">Contacto</a> |
+      <a href="#top">Ir arriba</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Sección Sobre mí -->
+    <section id="about">
+      <h2>Sobre mí</h2>
+      <p>Soy un desarrollador web que disfruta crear páginas y aplicaciones sencillas y funcionales.</p>
+      <p><a href="#projects">Mira mis proyectos</a> para conocer mi trabajo.</p>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="projects">
+      <h2>Proyectos</h2>
+      <article>
+        <h3>Proyecto 1</h3>
+        <img src="https://via.placeholder.com/300x200" alt="Imagen del proyecto 1">
+        <p>Descripción breve del proyecto 1.</p>
+        <a href="#contact">Contáctame si quieres saber más</a>
+      </article>
+      <article>
+        <h3>Proyecto 2</h3>
+        <img src="https://via.placeholder.com/300x200" alt="Imagen del proyecto 2">
+        <p>Descripción breve del proyecto 2.</p>
+      </article>
+      <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <!-- Sección Blog -->
+    <section id="blog">
+      <h2>Blog</h2>
+      <article>
+        <h3>Consejos de desarrollo web</h3>
+        <img src="https://via.placeholder.com/400x200" alt="Imagen sobre desarrollo web">
+        <p>En este artículo comparto algunos consejos para mejorar tus habilidades en HTML, CSS y JavaScript.</p>
+      </article>
+
+      <article>
+        <h3>Tendencias en diseño web 2025</h3>
+        <img src="https://via.placeholder.com/400x200" alt="Imagen sobre diseño web">
+        <p>Una mirada a las tendencias de diseño web más importantes para este año.</p>
+      </article>
+
+      <aside>
+        <h4>Recomendaciones</h4>
+        <ul>
+          <li><a href="#projects">Mis proyectos destacados</a></li>
+          <li><a href="#products">Ver productos</a></li>
+          <li><a href="#contact">Ir a contacto</a></li>
+        </ul>
+      </aside>
+      <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <!-- Sección Multimedia -->
+    <section id="media">
+      <h2>Multimedia</h2>
+      <h3>Lista de Videos</h3>
+      <ul>
+        <li>
+          <video controls width="320">
+            <source src="video1.mp4" type="video/mp4">
+          </video>
+          <p>Video 1 - Presentación de mi portafolio</p>
+        </li>
+        <li>
+          <video controls width="320">
+            <source src="video2.mp4" type="video/mp4">
+          </video>
+          <p>Video 2 - Tutorial de HTML básico</p>
+        </li>
+        <li>
+          <video controls width="320">
+            <source src="video3.mp4" type="video/mp4">
+          </video>
+          <p>Video 3 - Ejemplo de proyectos</p>
+        </li>
+      </ul>
+
+      <h3>Audio de ejemplo</h3>
+      <audio controls>
+        <source src="audio1.mp3" type="audio/mpeg">
+      </audio>
+      <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="products">
+      <h2>Productos</h2>
+      <table border="1" cellpadding="10">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+            <th>Disponibilidad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Producto A</td>
+            <td>Descripción breve del producto A</td>
+            <td>$20</td>
+            <td>Disponible</td>
+          </tr>
+          <tr>
+            <td>Producto B</td>
+            <td>Descripción breve del producto B</td>
+            <td>$35</td>
+            <td>Disponible</td>
+          </tr>
+          <tr>
+            <td>Producto C</td>
+            <td>Descripción breve del producto C</td>
+            <td>$50</td>
+            <td>Agotado</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Lista tipo carrito -->
+      <h3>Carro de compras</h3>
+      <ul>
+        <li>Producto A - Cantidad: 2 - Total: $40</li>
+        <li>Producto B - Cantidad: 1 - Total: $35</li>
+      </ul>
+      <p><strong>Total a pagar: $75</strong></p>
+      <p><a href="#contact">Finalizar compra en Contacto</a></p>
+      <p><a href="#top">Volver arriba</a></p>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contact">
+      <h2>Contacto</h2>
+      <form>
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Correo:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Mensaje:</label><br>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p><a href="#top">Volver arriba</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Nombre Apellido</p>
+  </footer>
+</body>
+</html>
